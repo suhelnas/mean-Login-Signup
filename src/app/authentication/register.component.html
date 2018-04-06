@@ -1,0 +1,23 @@
+<div class=col-sm-4>
+  <p class="text-center">LOGO</p>
+  <fieldset>
+    <legend class="text-center">Power Of All</legend>
+    <p id="profile-name" class="profile-name-card"></p>
+    <form class="form-signin">
+      <span id="reauth-email" class="reauth-email"></span>
+      <label >UserName:</label>
+      <input type="text" name="username" class="form-control" [(ngModel)]="input.username" placeholder="User Name" required autofocus>
+      <label >Email:</label>
+      <input type="email" name="email" class="form-control" [(ngModel)]="input.email" placeholder="Email address" required autofocus>
+      <label >Password:</label>
+      <input type="password" name="password" class="form-control" [(ngModel)]="input.password" placeholder="Password" required>
+      <label >Retype Password:</label>
+      <input type="password" name="password" class="form-control" [(ngModel)]="password" placeholder="Password" required>
+      <button id="btn-login" href="#" style="text-align:center" class="btn btn-success" (click)="signup()" >SignUp</button>
+      <p class="text-center">--or--</p>
+      <button class="btn btn-primary" type="submit">Sign up using Gmail</button>
+    </form>
+  </fieldset>
+</div>
+
+
